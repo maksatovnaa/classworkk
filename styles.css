@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    padding: 300px;
+    margin: auto;
+    background-image: url(https://img.freepik.com/free-photo/abstract-background-bokeh-lights_53876-120099.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727308800&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px 35px 5px 5px;
+    font-size: small;
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    color: #242e4c;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h5 {
+    color: #d69224;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+}
+
+button {
+    background-color: #242e4c;
+    height: 40px;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    place-items: center;
+    width: 200px;
+}
+.maint{
+    text-align: center;
+}
+.maini{
+    height: auto;
+    width: 500px;
+}
